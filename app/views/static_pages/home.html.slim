@@ -1,7 +1,10 @@
+- provide(:title, "Home")
 doctype html
 html 
   head 
-    title Home | Ruby on Rails Tutorial Sample App
+    title 
+      = yield(:title) 
+      | &nbsp;| Ruby on Rails Tutorial Sample App
   h1
     | Sample App
   p

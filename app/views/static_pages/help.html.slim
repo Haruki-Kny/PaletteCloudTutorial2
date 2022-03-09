@@ -1,7 +1,10 @@
+- provide(:title, "Help")
 doctype html
 html 
   head 
-    title Help | Ruby on Rails Tutorial Sample App
+    title 
+      = yield(:title) 
+      | &nbsp;| Ruby on Rails Tutorial Sample App
 h1
   | Help
 p
