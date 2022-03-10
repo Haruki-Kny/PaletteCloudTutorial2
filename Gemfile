@@ -14,6 +14,7 @@ gem 'html2slim'
 group :development, :test do
   gem 'mysql2', '>= 0.3.18', '< 0.6.0'
   gem 'byebug', '9.0.6', platform: :mri
+  gem 'rspec-rails'
 end
 
 group :development do
