@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.1.6'
+gem 'bootstrap-sass', '3.3.7'
 gem 'puma',         '3.9.1'
 gem 'sass-rails',   '5.0.6'
 gem 'uglifier',     '3.2.0'
@@ -15,6 +16,8 @@ group :development, :test do
   gem 'mysql2', '>= 0.3.18', '< 0.6.0'
   gem 'byebug', '9.0.6', platform: :mri
   gem 'rspec-rails'
+  gem 'capybara'
+  gem 'webdrivers'
 end
 
 group :development do
