@@ -135,6 +135,11 @@ GEM
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
+    pry-byebug (3.4.3)
+      byebug (>= 9.0, < 9.1)
+      pry (~> 0.10)
+    pry-rails (0.3.9)
+      pry (>= 0.10.4)
     public_suffix (4.0.6)
     puma (3.9.1)
     racc (1.6.0)
@@ -274,6 +279,8 @@ DEPENDENCIES
   minitest-reporters (= 1.1.14)
   mysql2 (>= 0.3.18, < 0.6.0)
   pg (= 0.20.0)
+  pry-byebug
+  pry-rails
   puma (= 3.9.1)
   rails (= 5.1.6)
   rails-controller-testing (= 1.0.2)
