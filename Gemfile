@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails',        '5.1.6'
 gem 'bcrypt',         '3.1.12'
+gem 'faker',          '1.7.3'
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma',         '3.9.1'
 gem 'sass-rails',   '5.0.6'
@@ -12,6 +15,8 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.6.4'
 gem 'slim-rails'
 gem 'html2slim'
+gem 'rails-i18n', '~> 5.1'
+gem 'i18n', '>=0.5', '<1'
 
 group :development, :test do
   gem 'mysql2', '>= 0.3.18', '< 0.6.0'
